@@ -17,6 +17,7 @@ namespace StateDesignPatternLayer.Service
         public void Request()
         {
             _state?.HandleRequest();
+            // ? uses the null - conditional operator
         }
     }
 }
